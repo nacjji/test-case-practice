@@ -25,6 +25,7 @@ class PostsController {
   createPost = async (req, res, next) => {
     try {
       const { nickname, password, title, content } = req.body
+      // invalid Params Error
       if (!nickname || !password || !title) throw new Error("InvalidParamsError")
       //서비스 계층에 구현된 createPost 로직 실행
       // http 메소드 post, 기본 url 일 때 실행
