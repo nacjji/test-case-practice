@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "skwldnjs1!",
+    "database": "layered_architecture_pattern_db",
+    "host": "express-db2.cta1pnnjerr0.ap-northeast-2.rds.amazonaws.com",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

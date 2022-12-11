@@ -1,0 +1,28 @@
+{
+  "name": "layered-architecture-pattern",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test jest --forceExit",
+    "test:silent": "NODE_ENV=test jest --silent --forceExit",
+    "test:coverage": "NODE_ENV=test jest --coverage --forceExit",
+    "test:unit": "NODE_ENV=test jest __tests__/unit --forceExit",
+    "test:integration": "NODE_ENV=test jest __tests__/integration --forceExit",
+    "start": "nodemon app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.26.0"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "sequelize-cli": "^6.5.2",
+    "supertest": "^6.3.3"
+  },
+  "keywords": [],
+  "description": ""
+}
